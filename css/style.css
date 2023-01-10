@@ -284,7 +284,7 @@ color: #fff;
 }
 
 .wrapper h1{
-   font-size: 60px;
+   font-size: 40px;
    font-weight: 500;
    margin-top: 30px;
    margin-bottom: 20px;
@@ -292,7 +292,7 @@ color: #fff;
 }
 
 .wrapper h5{
-   font-size: 20px;
+   font-size: 18px;
    text-align: center;
    font-weight: 300;
    margin-bottom: 80px;
@@ -307,8 +307,8 @@ margin: 0 auto;
 }
 
 .card{
-   width: 380px;
-   height: 250px;
+   width: 315px;
+   height: 240px;
    border-radius: 15px;
    margin: 7px;
    padding: 20px 30px;
@@ -330,7 +330,7 @@ margin: 0 auto;
 
 .card p{
    font-size: 16px;
-   margin-top: 40px;
+   margin-top: 30px;
    margin-bottom: 25px;
 }
 
@@ -360,7 +360,8 @@ margin: 0 auto;
 }
 
 @media(max-width: 768px)
-{   
+{
+
 .cards{
    width: 100%;
    flex-direction: column;
@@ -370,6 +371,21 @@ margin: 0 auto;
        margin: 40px 0;
    }
 
+}
+
+.wrapper h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wrapper h5{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 80px;
 }
 /* Testimonial Section End  */
 
